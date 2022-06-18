@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo "Домашняя дериктория: $HOME"
+
+mydir=$(pwd)
+echo "Текущая дериктория $mydir"
+
+val1=1
+val2=2
+
+if [ $val1 \< $val2 ]
+then
+	find . -name "*.jpg"
+else
+	file -z ./arh.zip
+fi
+
+
